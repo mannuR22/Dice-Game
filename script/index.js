@@ -88,11 +88,11 @@ switch(computerNumber) {
 }
 
 if(playerNumber > computerNumber){
-    document.querySelector(".result").innerText = "YOU WINS";
+    document.querySelector(".result").innerText = "Result: YOU WINS";
 }
 else if(computerNumber > playerNumber){
-    document.querySelector(".result").innerText = "COMPUTER WINS";
+    document.querySelector(".result").innerText = "Result: COMPUTER WINS";
 }
 else{
-    document.querySelector(".result").innerText = "DRAW";
+    document.querySelector(".result").innerText = "Result: DRAW";
 }
